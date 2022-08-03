@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Montserrat", sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+
+	border-radius: 15px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+}
+
+input {
+	font-size: 16px;
+	padding: 5px 10px;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+
+input::placeholder {
+	color: black;
+	font-family: "Montserrat", sans-serif;
+}
+
+button {
+	padding: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+	background: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+	background-color: rgb(121, 182, 242);
+}
+
+button:hover {
+	color: #fff;
+	background-color: rgb(92, 139, 185);
+}
+
+.wrapper {
+	max-width: 600px;
+	padding: 20px 40px;
+	background-color: rgb(121, 182, 242);
+	width: 600px;
+	height: 300px;
+}
+.bottom {
+	display: flex;
+	flex-direction: column;
+}
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.box button {
+	margin-top: 10px;
+}
+
+.main-info {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+}
+.main-info img {
+	width: 30%;
+}
+
+.city-name {
+	font-size: 40px;
+}
+
+.headings,
+.weather-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.headings p,
+.weather-info p {
+	width: 100%;
+	text-align: center;
+}
+
+.headings {
+	height: 35%;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	color: black;
+}
+
+.weather-info {
+	height: 65%;
+	font-size: 26px;
+}
+
+.photo {
+	width: 140px;
+	height: 140px;
+	object-fit: contain;
+}
+
+.warning {
+	margin-top: 10px;
+	font-size: 14px;
+	color: tomato;
+}
