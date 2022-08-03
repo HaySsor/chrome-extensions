@@ -3,7 +3,7 @@
 Instalation 
 1) Download this project next 
 
-2)turn-on a development mode
+2) turn-on a development mode
 ![image](https://user-images.githubusercontent.com/93125773/182690392-3f73ae58-fe1e-4310-8cd6-b49bb7ee8eba.png)
 
 
